@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%; /* Ensures gradient spans the entire height */
+  background: linear-gradient(0deg, rgba(97,75,150,1) 0%, rgba(200,183,183,1) 100%, rgba(255,0,234,1) 100%, rgba(10,228,199,1) 100%);
+}
+
+header {
+  color: #04080F;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Helvetica, sans-serif;
+}
+
+header .logo {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+header nav ul {
+  display: flex; 
+  align-items: center;
+  gap: 20px; 
+  list-style-type: none;
+}
+
+header nav ul li{
+  margin-left: 100px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #04080F;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+header nav ul li a:hover {
+  background-color: #DAE3E5;
+  border-radius: 10px;
+}
+
+.home-page h1{
+  font-family: Trebuchet, sans-serif;
+  font-size: 120px;
+  margin-top: 200px;
+  text-align: center;
+  color: black;
+}
+
+.home-page p {
+  font-family: Trebuchet, sans-serif;
+  font-size: 30px;
+  margin-top: 20px;
+  text-align: center;
+  max-width: 1300px; /* to limit width */
+  margin: 20px auto; /* to center align items within a block*/
+  line-height: 1.5; /* Improve readability */
+  white-space: normal; /* Allow wrapping */
+  overflow-wrap: break-word; /* Handle long words gracefully */
+  color: black;
+}
+
+.home-page nav ul {
+  list-style-type: none;
+  display: flex; flex-wrap: wrap; align-items: flex-start;
+  gap: 200px;
+  justify-content: center;
+}
+
+.home-page nav ul li {
+  margin-top: 60px;
+}
+
+.home-page nav ul li a{
+  font-weight: bold; font-family: Helvetica, sans-serif; font-size: 50px;
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+  width: 100%; gap: 100px;
+}
+
+.home-page nav ul li a:hover {
+  background-color: #baa6cb;
+  border-radius: 10px;
+}
+

@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  h1 {
+    text-align: center;
+    font-family: sans-serif; font-size: 50px;
+    margin-top: 30px; margin-bottom: 30px; color: black;
+  }
+  
+  body {
+    background: linear-gradient(0deg, rgba(97,75,150,1) 0%, rgba(200,183,183,1) 100%, rgba(255,0,234,1) 100%, rgba(10,228,199,1) 100%);
+    font-family: Helvetica, sans-serif;
+  }
+  
+  header {
+    color: #1A1C1C;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Helvetica, sans-serif;
+  }
+  
+  header .logo {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  header nav ul li{
+    margin-left: 30px;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: #1A1C1C;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  header nav ul li a:hover {
+    background-color: #dbd3e2;
+    border-radius: 10px;
+  }
+
+body .about-me {
+    display: flex; 
+    align-items: flex-start;
+    gap: 20px; 
+  }
+  
+  body .about-me img {
+    display: block;
+    width: 300px;
+    margin: 20px auto;
+    align-items: flex-start;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  body .about-me img:hover {
+    transform: translateY(-10px);
+  }
+
+  body .section {
+    display: flex; flex-wrap: wrap; align-items: flex-start;
+    gap: 20px;
+  }
+
+  body .section .card {
+    display: block;
+    background-color: rgba(236, 240, 240, 0.2);
+    backdrop-filter: blur (5px);
+    height: 500px; width: 400px;
+    border-radius: 20px;
+    overflow-wrap: break-word;
+    margin: 20px auto;
+  }
+
+  body .section .card .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 400px;
+    max-height: 500px;
+  }
+
+  body .section .card .content h3 {
+    font-family: 'Helvetica', sans-serif; font-size: 1.5rem; /* 1 rem = 14px, 0.5 rem = 7 px, 1.5 rem = 21 px*/
+    color: #1C1A1A; 
+    text-align: center;
+  }
+
+  body .section .card .content p {
+    font-size: 1rem;
+    color: black;
+    font-family: 'Helvetica', serif;
+    max-height: 400px; max-width: 400px;
+    margin-top: 10px;
+  }
+
+  body .section .card .content h6 {
+    font-size: 1rem;
+    color: black;
+    font-family: 'Helvetica', serif; font-weight: bold;
+    max-height: 400px; max-width: 400px;
+    margin-top: 10px;
+  }
+
+  .longcard {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    background-color: rgba(236, 240, 240, 0.2); 
+    backdrop-filter: blur(10px);
+    height: 300px;
+    width: 90%;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 20px; 
+    gap: 10px; 
+}
+
+.longcard h1 {
+    font-size: 40px;
+    color: black;
+}
+
+.longcard img {
+    width: 125px; 
+    height: 125px; 
+    object-fit: cover; 
+    border-radius: 50%; 
+    margin: 0 10px; 
+    transition: transform 0.3s ease; 
+}
+
+.longcard img:hover {
+    transform: scale(1.1); 
+}
+
+
+.longcard .socials {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px; 
+}
+

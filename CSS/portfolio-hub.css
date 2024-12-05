@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    height: 100%; /* Ensures gradient spans the entire height */
+    background: linear-gradient(0deg, rgba(97,75,150,1) 0%, rgba(200,183,183,1) 100%, rgba(255,0,234,1) 100%, rgba(10,228,199,1) 100%);
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif; 
+  }
+  
+  header {
+    color: #1A1C1C;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Helvetica, sans-serif;
+    flex-wrap: wrap; 
+  }
+  
+  header .logo {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  header nav ul li{
+    margin-left: 30px;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: #1A1C1C;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  header nav ul li a:hover {
+    background-color: #dbd3e2;
+    border-radius: 10px;
+  }
+
+body .portfolio-hub {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .portfolio-hub .card {
+    background-color: #707171;
+    border-radius: 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow-wrap: break-word;
+    margin-top: 60px;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: rgba(236, 240, 240, 0.2);
+    backdrop-filter: blur(10px);
+  }
+  
+  .portfolio-hub .card:hover {
+    box-shadow: 10px #A1C6EA;
+    transform: translateY(-10px);
+  }
+  
+  .portfolio-hub .card-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .portfolio-hub .card-content {
+    display: flex;
+    flex-direction: column; /* stack content vertically */
+    justify-content: space-between; /* to distribute the space evenly */
+    padding: 20px;
+    height: 100%; 
+    text-align: center;
+}
+
+.portfolio-hub .card-title {
+    font-size: 1.5rem;
+    color: black;
+    font-family: Arial, sans-serif;
+    margin-bottom: auto; 
+}
+
+.portfolio-hub .card-description {
+    font-size: 1rem;
+    color: #E2E3E3;
+    font-family: Helvetica, serif;
+    margin: 20px 0; 
+}
+
+.portfolio-hub .card-btn {
+    align-self: center; 
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgba(236, 240, 240, 0.2);
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    margin-top: auto; 
+    transition: background-color 0.3s ease;
+}
+  
+  .portfolio-hub .card-btn:hover {
+    background-color: #C6C6C6;
+  }
