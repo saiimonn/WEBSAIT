@@ -5,74 +5,35 @@
 }
 
 html {
-  height: 100%; /* Ensures gradient spans the entire height */
+  height: 100%; 
   background: linear-gradient(0deg, rgba(97,75,150,1) 0%, rgba(200,183,183,1) 100%, rgba(255,0,234,1) 100%, rgba(10,228,199,1) 100%);
-}
-
-header {
-  color: #04080F;
-  padding: 30px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-family: Helvetica, sans-serif;
-}
-
-header .logo {
-  font-size: 30px;
-  font-weight: bold;
-}
-
-header nav ul {
-  display: flex; 
-  align-items: center;
-  gap: 20px; 
-  list-style-type: none;
-}
-
-header nav ul li{
-  margin-left: 100px;
-}
-
-header nav ul li a {
-  text-decoration: none;
-  color: #04080F;
-  font-size: 18px;
-  font-weight: bold;
-  padding: 10px;
-  transition: background-color 0.3s ease;
-}
-
-header nav ul li a:hover {
-  background-color: #DAE3E5;
-  border-radius: 10px;
 }
 
 .home-page h1{
   font-family: Trebuchet, sans-serif;
-  font-size: 120px;
-  margin-top: 200px;
+  font-size: 7.5rem;
+  margin-top: 12.5rem;
   text-align: center;
   color: black;
 }
 
 .home-page p {
   font-family: Trebuchet, sans-serif;
-  font-size: 30px;
-  margin-top: 20px;
+  font-size: 1.875rem;
+  margin-top: 1.25rem;
   text-align: center;
-  max-width: 1300px; /* to limit width */
-  margin: 20px auto; /* to center align items within a block*/
-  line-height: 1.5; /* Improve readability */
-  white-space: normal; /* Allow wrapping */
-  overflow-wrap: break-word; /* Handle long words gracefully */
+  max-width: 81.25rem; 
+  margin: 20px auto; 
+  line-height: 1.5; 
+  white-space: normal; 
+  overflow-wrap: break-word; 
   color: black;
 }
 
 .home-page nav ul {
   list-style-type: none;
   display: flex; flex-wrap: wrap; align-items: flex-start;
-  gap: 200px;
+  gap: 12.5rem;
   justify-content: center;
 }
 
@@ -81,12 +42,12 @@ header nav ul li a:hover {
 }
 
 .home-page nav ul li a{
-  font-weight: bold; font-family: Helvetica, sans-serif; font-size: 50px;
+  font-weight: bold; font-family: trebuchet, sans-serif; font-size: 50px;
   text-decoration: none;
   color: black;
-  padding: 10px;
+  padding: 0.625rem;
   transition: background-color 0.3s ease;
-  width: 100%; gap: 100px;
+  width: 100%; gap: 6.25rem;
 }
 
 .home-page nav ul li a:hover {

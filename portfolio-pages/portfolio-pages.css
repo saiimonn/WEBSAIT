@@ -22,11 +22,11 @@ body {
 }
 
 .titlebar h1 {
-    font-size: 40px;
+    font-size: 2.5rem;
     color: black;
     justify-content: center;
     text-align: center;
-    line-height: 100px;
+    line-height: 6.25rem;
 }
 
 .main {
@@ -34,8 +34,8 @@ body {
 }
 
 .sidebar {
-    width: 250px;
-    padding: 20px;
+    width: 15.625rem;
+    padding: 1.25rem;
     height: calc(100vh - 100px);
     position: fixed;
 }
@@ -45,14 +45,14 @@ body {
 }
 
 .sidebar ul li {
-    margin: 20px 0;
+    margin: 1.25rem 0;
 }
 
 .sidebar ul li a {
     color: black;
     text-decoration: none;
-    font-size: 20px; font-weight: bold;
-    padding: 10px;
+    font-size: 1.25rem; font-weight: bold;
+    padding: 0.625rem;
     display: block;
     border-radius: 5px;
     transition: all 0.3s ease-in-out;
@@ -60,22 +60,22 @@ body {
 
 .sidebar ul li a:hover {
     background-color: rgba(236, 240, 240, 0.3);
-    padding-left: 15px;
+    padding-left: 0.9375rem;
 }
 
 .content-area {
     flex: 1;
-    margin-left: 270px; /* Adjust for sidebar width */
-    padding: 20px;
+    margin-left: 16.875rem; /* Adjust for sidebar width */
+    padding: 1.25rem;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    gap: 20px;
+    gap: 1.25rem;
 }
 
 .content-area ul li {
-    margin-left: 40px; margin-top: 5px;
+    margin-left: 2.5rem; margin-top: 0.3125rem;
     justify-content: left;
     text-align: left;
 }
@@ -84,7 +84,7 @@ body {
     list-style-type: decimal;
     justify-content: left;
     text-align: left;
-    margin-left: 40px; margin-top: 5px;
+    margin-left: 2.5rem; margin-top: 0.3125rem;
 }
 
 .content-area ul li ul {
@@ -96,50 +96,50 @@ body {
 .normalbox, .rectangle, .longbox, .half-longbox, .smallbox, .horizontal-rectangle{
     background-color: rgba(236, 240, 240, 0.2); 
     backdrop-filter: blur(10px);
-    border-radius: 10px;
+    border-radius: 0.625rem;
     color: black;
-    padding: 20px;
+    padding: 1.25rem;
     text-align: center;
     width: 100%;
 }
 
 .normalbox {
-    width: 600px;
-    height: 300px;
+    width: 37.5rem;
+    height: 18.75rem;
 }
 
 .horizontal-rectangle {
-    height: 700px;
-    width: 1325px;
+    height: 43.75rem;
+    width: 82.8125rem;
 }
 
 .smallbox {
-    width: 400px;
-    height: 500px;
+    width: 25rem;
+    height: 31.25rem;
 }
 
 .rectangle {
-    width: 700px;
-    height: 700px;
+    width: 43.75rem;
+    height: 43.75rem;
 }
 
 .longbox {
-    width: 1325px;
-    height: 350px;
+    width: 82.8125rem;
+    height: 21.875rem;
 }
 
 .half-longbox {
-    width: 700px;
-    height: 300px;
+    width: 43.75rem;
+    height: 18.75rem;
 }
 
 h1 {
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
     justify-content: center;
 }
 
 .normalbox p, .rectangle p, .longbox p, .half-longbox p, .smallbox p, .horizontal-rectangle p{
-    margin: 10px;
+    margin: 0.625rem;
     text-align: justify;
 }
 
@@ -149,8 +149,8 @@ h1 {
     display: flex; 
     justify-content: center; 
     align-items: center; 
-    width: 600px; 
-    height: 300px; 
+    width: 37.5rem; 
+    height: 18.75rem; 
     overflow: hidden; 
 }
 
