@@ -6,7 +6,7 @@
 
   h1 {
     text-align: center;
-    font-family: sans-serif; font-size: 50px;
+    font-family: sans-serif; font-size: 3.125rem;
     margin-top: 30px; margin-bottom: 30px; color: black;
   }
   
@@ -25,7 +25,7 @@
   }
   
   header .logo {
-    font-size: 30px;
+    font-size: 1.875rem;
     font-weight: bold;
   }
   
@@ -35,15 +35,15 @@
   }
   
   header nav ul li{
-    margin-left: 30px;
+    margin-left: 1.875rem;
   }
   
   header nav ul li a {
     text-decoration: none;
     color: #1A1C1C;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: bold;
-    padding: 10px;
+    padding: 0.625rem;
     transition: background-color 0.3s ease;
   }
   
@@ -60,7 +60,7 @@ body .about-me {
   
   body .about-me img {
     display: block;
-    width: 300px;
+    width: 18.75rem;
     margin: 20px auto;
     align-items: flex-start;
     object-fit: cover;
@@ -81,10 +81,10 @@ body .about-me {
     display: block;
     background-color: rgba(236, 240, 240, 0.2);
     backdrop-filter: blur (5px);
-    height: 500px; width: 400px;
-    border-radius: 20px;
+    height: 31.875rem; width: 25rem;
+    border-radius: 1.25rem;
     overflow-wrap: break-word;
-    margin: 20px auto;
+    margin: 1.25rem auto;
   }
 
   body .section .card .content {
@@ -92,8 +92,13 @@ body .about-me {
     flex-direction: column;
     justify-content: space-between;
     padding: 20px;
-    max-width: 400px;
-    max-height: 500px;
+    max-width: 25rem;
+    max-height: 31.25rem;
+  }
+
+  body .section .card .content ul li {
+    margin-left: 3rem;
+    font-size: 1.125rem;
   }
 
   body .section .card .content h3 {
@@ -103,19 +108,20 @@ body .about-me {
   }
 
   body .section .card .content p {
-    font-size: 1rem;
+    font-size: 1.125rem;
     color: black;
     font-family: 'Helvetica', serif;
-    max-height: 400px; max-width: 400px;
-    margin-top: 10px;
+    max-height: 25rem; max-width: 25rem;
+    margin-top: 0.625rem;
+    text-align: justify;
   }
 
   body .section .card .content h6 {
-    font-size: 1rem;
+    font-size: 1.125rem;
     color: black;
     font-family: 'Helvetica', serif; font-weight: bold;
-    max-height: 400px; max-width: 400px;
-    margin-top: 10px;
+    max-height: 25rem; max-width: 25rem;
+    margin-top: 0.625rem;
   }
 
   .longcard {
@@ -124,7 +130,7 @@ body .about-me {
     align-items: center; 
     background-color: rgba(236, 240, 240, 0.2); 
     backdrop-filter: blur(10px);
-    height: 300px;
+    height: 21.875rem;
     width: 90%;
     border-radius: 10px;
     margin: 20px auto;
@@ -133,13 +139,13 @@ body .about-me {
 }
 
 .longcard h1 {
-    font-size: 40px;
+    font-size: 2.5rem;
     color: black;
 }
 
 .longcard img {
-    width: 125px; 
-    height: 125px; 
+    width: 7.8125rem; 
+    height: 7.8125rem; 
     object-fit: cover; 
     border-radius: 50%; 
     margin: 0 10px; 
@@ -155,6 +161,6 @@ body .about-me {
     display: flex; 
     justify-content: center; 
     align-items: center; 
-    gap: 20px; 
+    gap: 1.25rem; 
 }
 
