@@ -65,7 +65,7 @@ body {
 
 .content-area {
     flex: 1;
-    margin-left: 16.875rem; /* Adjust for sidebar width */
+    margin-left: 16.875rem;
     padding: 1.25rem;
     display: flex;
     justify-content: center;

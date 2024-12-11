@@ -101,7 +101,7 @@ body .about-me {
   }
 
   body .section .card .content h3 {
-    font-size: 1.5rem; /* 1 rem = 14px, 0.5 rem = 7 px, 1.5 rem = 21 px*/
+    font-size: 1.5rem; 
     color: #1C1A1A; 
     text-align: center;
   }
